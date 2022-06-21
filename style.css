@@ -1,0 +1,128 @@
+
+body{
+    background-image:url(assets/91G8asH3H7L._AC_SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:"Architects Daughter";
+    font-size:24px;
+}
+
+h1{
+    margin-top: 70px;
+    font-family:"Architects Daughter";
+    justify-content: center;
+    display: flex;
+}
+
+.main-container{
+width: 95%;
+margin: auto;
+margin-top: -10px;
+justify-content: center;
+display: flex;
+
+}
+
+#relativeMainNote{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+#frontMainNote{
+    position: absolute;
+}
+
+#button{
+background-color: rgba(91, 163, 225, 0.662);
+margin-left: -60px;
+width: 60px;
+height: 48px;
+}
+#button1{
+background-color: rgba(91, 163, 225, 0.662);
+margin-left: -350px;
+width: 60px;
+height: 48px;
+}
+#datetimepicker{
+position: absolute;
+background-color: rgba(91, 163, 225, 0.662);
+margin-left: -350px;
+margin-top: 300px;
+width: 350px;
+height: 50px;
+}
+#noteText{  
+    background-color: rgba(91, 163, 225, 0);
+    margin-top: 40px;
+    outline-color: rgba(91, 163, 225, 0);
+    width: 350px;
+    height: 240px;
+   
+    }
+#relativeMiniNote{
+        position: relative;
+        justify-content: center;
+        float: left;
+        display: flex;
+        margin: auto;
+        margin-left: 60px;
+        height: 240px;
+
+    }
+ #miniText{
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -100px;
+    overflow: auto;
+    width: 180px;
+    height: 120px;
+    font-size: 15px;
+    word-wrap: break-word;
+} 
+
+#datetimeDisplay{
+   font-size:12px;
+   position: absolute;
+   margin-left: -100px;
+   margin-top: 160px;
+   font-weight: bolder;
+   width: 200px;
+}
+
+.deletebtn{
+    color: rgb(225, 225, 118);
+    position: absolute;
+    margin-left: -30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none; 
+    margin-left: 40px;
+    display: none;  
+  }
+
+  #relativeMiniNote:hover .deletebtn{
+    display:block;
+  }
+
+.btn{
+    position: absolute;
+    margin-left: -30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;    
+  } 
+  
+
+    
+
+
+
+
